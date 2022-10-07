@@ -1,0 +1,40 @@
+[07-Oct-2022 00:57:31 UTC] Uncaught exception: 'Exception'with message  'No route matched'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Router.php' on line 125
+[07-Oct-2022 00:57:48 UTC] Uncaught exception: 'Exception'with message  'No route matched'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Router.php' on line 125
+[07-Oct-2022 01:09:35 UTC] Uncaught exception: 'Exception'with message  'Method indiceAction not found in controller App\Controllers\Posts'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/Core/Router.php(114): Core\Controller->__call('indice', Array)
+#1 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/indice')
+#2 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Controller.php' on line 53
+[07-Oct-2022 01:09:55 UTC] Uncaught exception: 'Exception'with message  'No route matched'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('postss')
+#1 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Router.php' on line 125
+[07-Oct-2022 01:10:04 UTC] Uncaught exception: 'Exception'with message  'Method indexesAction not found in controller App\Controllers\Posts'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/Core/Router.php(114): Core\Controller->__call('indexes', Array)
+#1 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/indexes')
+#2 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Controller.php' on line 53
+[07-Oct-2022 01:10:19 UTC] Uncaught exception: 'Exception'with message  'No route matched'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Router.php' on line 125
+[07-Oct-2022 01:24:01 UTC] Uncaught exception: 'Exception'with message  'Method viewAction not found in controller App\Controllers\Posts'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/Core/Router.php(114): Core\Controller->__call('view', Array)
+#1 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/view')
+#2 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Controller.php' on line 53
+[07-Oct-2022 01:24:09 UTC] Uncaught exception: 'Exception'with message  'No route matched'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Router.php' on line 125
+[07-Oct-2022 01:24:49 UTC] Uncaught exception: 'Exception'with message  'Method nwAction not found in controller App\Controllers\Posts'
+Stack trace: <pre>#0 /Applications/AMPPS/www/mvc/Core/Router.php(114): Core\Controller->__call('nw', Array)
+#1 /Applications/AMPPS/www/mvc/public/index.php(70): Core\Router->dispatch('posts/nw')
+#2 {main}
+Thrown in '/Applications/AMPPS/www/mvc/Core/Controller.php' on line 53
